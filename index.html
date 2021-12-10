@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>99Sport - Football</title>
 
+    <!-- vendors css file -->
+    <link rel="stylesheet" href="./vendors/css/grid.css" />
+    <!-- animate css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- icon link -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
-    <!-- vendors css file -->
-    <link rel="stylesheet" href="./vendors/css/grid.css" />
     <!-- main css file in resources -->
     <link rel="stylesheet" href="./resources/css/style.css" />
     <link rel="stylesheet" href="./resources/css/mediaQuery.css" />
@@ -37,9 +42,9 @@
           <i class="fas fa-bars" id="icon"></i>
         </div>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Gallery</a></li>
+          <li><a href="#" class="js--btn-home">Home</a></li>
+          <li><a href="#" class="js--btn-features">Features</a></li>
+          <li><a href="#" class="js--btn-gallery">Gallery</a></li>
         </ul>
         <!-- <a><i class="fas fa-arrow-circle-up"></i></a> -->
       </nav>
@@ -58,7 +63,7 @@
     <!-- main section -->
     <main class="main-section js--section-main">
       <div class="main-content">
-        <div class="main-left">
+        <div class="main-left js--wp-1">
           <h1>Football Betting With <br /><span>99Sport</span></h1>
           <p>
             မြန်မာ့ အကောင်းဆုံး Football Betting Application သင်လိုတာတွေ ဒီမှာ
@@ -69,7 +74,7 @@
             <a href="#">Direct Download</a>
           </div>
         </div>
-        <div class="main-right">
+        <div class="main-right js--wp-2">
           <div class="main-img">
             <img src="./resources/css/img/hero-img.png" alt="main-img" />
           </div>
@@ -80,36 +85,36 @@
     <!-- feature section -->
 
     <section class="feature-section size-view js--section-feature">
-      <div class="row feature-text size-view">
+      <div class="row feature-text size-view js--wp-3">
         <h2>Features</h2>
         <p>check the features</p>
       </div>
       <div class="row first-row size-view">
-        <div class="col span_1_of_4 first-row-box">
+        <div class="col span_1_of_4 first-row-box js--wp-box">
           <i class="fas fa-store"></i><a href="#">ဘောဒီ၊ ဂိုးပေါင်း</a>
         </div>
-        <div class="col span_1_of_4 first-row-box">
+        <div class="col span_1_of_4 first-row-box js--wp-box">
           <i class="fas fa-chart-bar"></i><a href="#">မောင်း</a>
         </div>
-        <div class="col span_1_of_4 first-row-box">
+        <div class="col span_1_of_4 first-row-box js--wp-box">
           <i class="fas fa-calendar-check"></i
           ><a href="#">လောင်းထားသောပွဲစဉ်များ</a>
         </div>
-        <div class="col span_1_of_4 first-row-box">
+        <div class="col span_1_of_4 first-row-box js--wp-box">
           <i class="fas fa-history"></i><a href="#">ပွဲစဉ်ဟောင်းများ</a>
         </div>
       </div>
       <div class="row second-row size-view">
-        <div class="col span_1_of_4 second-row-box">
+        <div class="col span_1_of_4 second-row-box js--wp-box">
           <i class="fas fa-database"></i><a href="#">ငွေစာရင်</a>
         </div>
-        <div class="col span_1_of_4 second-row-box">
+        <div class="col span_1_of_4 second-row-box js--wp-box">
           <i class="fas fa-wallet"></i><a href="#">ငွေသွင်း၊ ငွေထုတ်</a>
         </div>
-        <div class="col span_1_of_4 second-row-box">
+        <div class="col span_1_of_4 second-row-box js--wp-box">
           <i class="fas fa-file-alt"></i><a href="#">ပွဲပြီးရလာဒ်</a>
         </div>
-        <div class="col span_1_of_4 second-row-box">
+        <div class="col span_1_of_4 second-row-box js--wp-box">
           <i class="fas fa-cog"></i><a href="#">ချိန်ညှိချက်များ</a>
         </div>
       </div>
@@ -154,10 +159,10 @@
 
     <section class="rules-section">
       <div class="rules-container">
-        <div class="rules-img">
+        <div class="rules-img js--wp-rules-img">
           <img src="./resources/css/img/details-1.png" alt="rules-img" />
         </div>
-        <div class="rules-text">
+        <div class="rules-text js--wp-rules-text">
           <h2>စည်းကမ်း နှင့် သတ်မှတ်ချက်များ</h2>
           <p>
             အောက်ပါ စည်းကမ်းနှင့်သတ်မှတ်ချက် များကို သေခြာ ဖတ်ရှုပြီး သဘောတူမှသာ
@@ -265,37 +270,37 @@
 
     <!-- gallery section -->
 
-    <section class="gallery-section size-view">
+    <section class="gallery-section size-view js--section-gallery">
       <div class="gallery-text feature-text">
         <h2>gallery</h2>
         <p>check out gallery</p>
       </div>
       <div class="gallery-container">
         <div class="row first-gallery-container">
-          <div class="col span_1_of_4 gallery-box">
+          <div class="col span_1_of_4 gallery-box js--wp-gallery-box-1">
             <img src="./resources/css/img/gallery-1.jpg" alt="gallery-1" />
           </div>
-          <div class="col span_1_of_4 gallery-box">
+          <div class="col span_1_of_4 gallery-box js--wp-gallery-box-1">
             <img src="./resources/css/img/gallery-2.jpg" alt="gallery-2" />
           </div>
-          <div class="col span_1_of_4 gallery-box">
+          <div class="col span_1_of_4 gallery-box  js--wp-gallery-box-1">
             <img src="./resources/css/img/gallery-3.jpg" alt="gallery-3" />
           </div>
-          <div class="col span_1_of_4 gallery-box">
+          <div class="col span_1_of_4 gallery-box js--wp-gallery-box-1">
             <img src="./resources/css/img/gallery-4.jpg" alt="gallery-4" />
           </div>
         </div>
         <div class="row second-gallery-container">
-          <div class="col span_1_of_4 gallery-box">
+          <div class="col span_1_of_4 gallery-box js--wp-gallery-box-2">
             <img src="./resources/css/img/gallery-5.jpg" alt="gallery-5" />
           </div>
-          <div class="col span_1_of_4 gallery-box">
+          <div class="col span_1_of_4 gallery-box js--wp-gallery-box-2">
             <img src="./resources/css/img/gallery-6.jpg" alt="gallery-6" />
           </div>
-          <div class="col span_1_of_4 gallery-box">
+          <div class="col span_1_of_4 gallery-box js--wp-gallery-box-2">
             <img src="./resources/css/img/gallery-7.jpg" alt="gallery-7" />
           </div>
-          <div class="col span_1_of_4 gallery-box">
+          <div class="col span_1_of_4 gallery-box js--wp-gallery-box-2">
             <img src="./resources/css/img/gallery-8.jpg" alt="gallery-8" />
           </div>
         </div>
@@ -318,7 +323,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="./resources/js/jquery.js"></script>
-
     <script src="./resources/js/script.js"></script>
   </body>
 </html>

@@ -329,22 +329,6 @@ span {
 }
 
 @keyframes position {
-  /* 0% {
-    top: 0px;
-  }
-  25% {
-    top: 4px;
-  }
-  50% {
-    top: 8px;
-  }
-  75% {
-    top: 12px;
-  }
-  100% {
-    top: 16px;
-  } */
-
   0% {
     transform: translateY(0px);
   }
@@ -607,4 +591,40 @@ footer {
 .footer-text p span {
   color: #00cc00;
   margin-left: 5px;
+}
+
+/* Styling animation  */
+
+.js--wp-1,
+.js--wp-2 {
+  animation-duration: 3s;
+}
+
+.js--wp-3 {
+  animation-duration: 3.5s;
+}
+.js--wp-box {
+  animation-duration: 2s;
+}
+
+.js--wp-rules-img,
+.js--wp-rules-text {
+  animation-duration: 2s;
+}
+
+.js--wp-gallery-box-1,
+.js--wp-gallery-box-2 {
+  animation-duration: 2.5s;
+}
+
+/* .... */
+
+.main-nav-effect:link:after,
+.main-nav-effect:visited:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #00ff00;
+  margin-top: 5px;
 }
