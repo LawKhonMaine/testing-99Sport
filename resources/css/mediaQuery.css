@@ -1,0 +1,318 @@
+/*  making responsive  */
+
+@media only screen and (min-width: 2000px) {
+  .main-section {
+    height: 140vh;
+  }
+}
+@media only screen and (max-width: 1130px) {
+  .first-row-box a,
+  .second-row-box a {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 1076px) {
+  .first-row-box,
+  .second-row-box {
+    margin-left: 1%;
+    padding: 20px 15px;
+  }
+}
+
+@media only screen and (max-width: 1034px) {
+  .first-row,
+  .second-row {
+    padding: 0 10px;
+  }
+  .first-row-box,
+  .second-row-box {
+    padding: 20px 5px;
+  }
+
+  .first-row-box a,
+  .second-row-box a {
+    font-size: 75%;
+  }
+  .first-row-box i,
+  .second-row-box i {
+    font-size: 120%;
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  /* main-section */
+
+  .main-section {
+    height: 150vh;
+  }
+
+  .main-content {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-right,
+  .main-left {
+    padding: 0;
+  }
+
+  .main-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-left {
+    margin-top: 30px;
+  }
+
+  .main-left h1 {
+    font-size: 160%;
+  }
+
+  .main-left h1 span::after {
+    width: 120px;
+  }
+
+  .main-img {
+    width: 60%;
+    margin: 0;
+  }
+
+  /* nav section */
+
+  .main-nav ul {
+    display: none;
+  }
+
+  .sticky-nav .nav-bar i {
+    display: block;
+  }
+
+  .nav-bar i {
+    display: block;
+  }
+
+  /* feature-section */
+
+  .first-row-box,
+  .second-row-box {
+    width: 48%;
+    margin: 1% 1% 0 0;
+  }
+
+  .feature-text {
+    margin: 0 0 20px 10px;
+  }
+
+  /* count section */
+
+  .count-section {
+    padding: 60px 1%;
+  }
+
+  .count-container {
+    padding: 0 1% 0 3.3%;
+  }
+
+  .count-box {
+    width: 48%;
+    float: none;
+    display: inline-block;
+    margin: 1% 0;
+  }
+
+  /* rules section */
+
+  .rules-img {
+    width: 44%;
+  }
+
+  .rules-text {
+    width: 54%;
+  }
+
+  .rules-text h2 {
+    margin: 10px 0 8px 0;
+  }
+
+  .rules-text p {
+    margin: 0 0 15px 0;
+  }
+
+  .rules-text i {
+    margin-right: 7px;
+  }
+
+  /* gallery section */
+
+  .first-gallery-container,
+  .second-gallery-container {
+    padding: 0 0 0 2.3%;
+  }
+
+  .gallery-box {
+    width: 48%;
+    padding: 1%;
+  }
+
+  .gallery-text {
+    margin-left: 25px;
+  }
+}
+
+@media only screen and(max-width:760px) {
+  /* feature section */
+  .first-row-box,
+  .second-row-box {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* count section */
+
+  .count-box {
+    width: 98%;
+    margin: 5% 0;
+  }
+
+  /* rules section */
+
+  .rules-container {
+    width: 98%;
+    margin: 0 1%;
+  }
+
+  .rules-img {
+    display: block;
+    width: 98%;
+    text-align: center;
+  }
+
+  .rules-text {
+    display: block;
+    width: 98%;
+  }
+
+  .rules-text h2 {
+    font-size: 110%;
+    margin: 10px 0 10px 0;
+  }
+
+  .rules-text p {
+    font-size: 85%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* header section */
+
+  .header-logo {
+    padding: 10px;
+    margin: 0 0 0 2%;
+  }
+
+  .header-logo h1 a {
+    color: #fff;
+    font-size: 140%;
+    text-decoration: none;
+  }
+
+  /* main section */
+
+  .main-left p {
+    font-size: 100%;
+  }
+  .main-btn a {
+    display: block;
+    padding: 15px 15px;
+    text-align: center;
+  }
+
+  .main-btn a:first-child {
+    margin-bottom: 10px;
+  }
+
+  /* feature section */
+  .first-row-box,
+  .second-row-box {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .first-row-box a,
+  .second-row-box a {
+    font-size: 90%;
+  }
+
+  .first-row-box i,
+  .second-row-box i {
+    font-size: 140%;
+    margin-right: 10px;
+  }
+
+  .feature-text p {
+    font-size: 150%;
+  }
+
+  /* count section */
+
+  .count-box {
+    width: 98%;
+    margin: 5% 0;
+  }
+
+  /* rules section */
+
+  .rules-container {
+    width: 98%;
+    margin: 0 1%;
+  }
+
+  .rules-img {
+    display: block;
+    width: 98%;
+    text-align: center;
+  }
+
+  .rules-text {
+    display: block;
+    width: 98%;
+  }
+
+  .rules-text h2 {
+    font-size: 110%;
+    margin: 10px 0 10px 0;
+  }
+
+  .rules-text p {
+    font-size: 85%;
+  }
+
+  /* gallery - section */
+
+  .gallery-text {
+    margin: 0 0 25px 12px;
+  }
+
+  .gallery-box {
+    width: 98%;
+    margin: 0 1% 0 0;
+  }
+
+  .gallery-box img {
+    width: 100%;
+  }
+
+  /* footer section */
+
+  .footer-text {
+    padding: 50px 0;
+  }
+}
